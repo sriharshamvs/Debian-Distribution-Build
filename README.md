@@ -1,4 +1,4 @@
-# e-swecha Distro Build
+# Debian Distribution Build
 ### Introduction to Distro Build
 #### Requriments :-
 - Understand [File System Hierarchy](https://www.linux.com/tutorials/linux-filesystem-explained/)
