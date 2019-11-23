@@ -1,0 +1,25 @@
+#!/bin/bash
+
+set -e
+
+
+dist="buster"
+
+lb config noauto \
+     --architectures amd64 \
+     --archive-areas "main contrib non-free" \
+     --interactive shell \
+     --debian-installer live  \
+     --distribution "$dist" \
+     --debian-installer-distribution "$dist" \
+     --parent-debian-installer-distribution "$dist" \
+     --debian-installer-gui true \
+     --iso-application "Custom_Linux" \
+     --iso-publisher "Harsha" \
+     --iso-volume "Custom_Linux Live" \
+     --image-name "Custom_Linux_1.0" \
+     --linux-packages linux-image \
+     --security false \
+     --updates false \
+     --memtest none \
+	"${@}"
