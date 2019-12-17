@@ -1,4 +1,4 @@
-# Live build Procedure
+# Debian Distribution Build
 
 ## Table of Contents :memo:
 - [Introduction](#introduction)
