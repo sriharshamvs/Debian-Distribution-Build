@@ -157,7 +157,8 @@ In terminal
 ```
 sudo lb build 2>&1 | tee build.log
 ```
-This generates the ISO from the Skeleton and a build log file  `build.log`. 
+This generates the ISO from the Skeleton and a build log file  `build.log`.
+
 This process __takes sometime__ have some coffee :coffee:
 - During the Process you will get a Interactive shell. Use that shell to install  [__Arduino IDE__](https://www.arduino.cc/en/guide/linux)
 - Once you are done exit the shell by pressing `Ctrl+d` and the remaing process continues.
