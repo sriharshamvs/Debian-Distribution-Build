@@ -167,7 +167,7 @@ This generates the ISO from the Skeleton and a build log file  `build.log`. This
 - Test this ISO by either __virtualbox__ or copy it to a __pen-drive__
 - Now clean the build directory using `lb clean`
  
-# Congratulations :beer:
+# Congratulations :tada: :tada: :tada:
 You have just created your Operating System
   
 
